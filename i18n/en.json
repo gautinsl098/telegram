@@ -1,0 +1,20 @@
+{
+    "telegram_bot_token": "Telegram Bot Token",
+    "telegram_default_department": "Default Department Id or Name",
+    "telegram_default_department_description": "All Telegram users will be transferred to this omnichannel department",
+    "telegram_service_unavailable_message": "Service Unavailable Message",
+    "telegram_service_unavailable_message_description": "This message will be sent to user if some error occurs like if no agents are online",
+    "telegram_welcome_message": "Welcome Message",
+    "telegram_welcome_message_description": "This message will be sent to visitor, when they send their first message",
+    "telegram_conversation_finished_message": "Conversation Finished Message",
+    "telegram_agents_display_name": "Agents Display Name",
+    "telegram_agents_display_name_description": "This agent info would be appended in front of every message sent by agent to visitor",
+    "None": "None",
+    "Name": "Name",
+    "Username": "Username",
+    "telegram_file_upload_enabled_message": "File Upload Enabled",
+    "telegram_file_upload_max_size_message": "Maximum File Upload Size (in bytes)",
+    "telegram_file_upload_max_size_message_description": "Set it to -1 to remove the file size limitation.",
+    "telegram_media_type_whitelist_message": "Accepted Media Types",
+    "telegram_media_type_whitelist_message_description": "Comma-separated list of media types. Leave it blank for accepting all media types."
+}

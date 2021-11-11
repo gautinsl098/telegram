@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Logs;
+(function (Logs) {
+    Logs["ENDPOINT_REQUEST_PROCESSING_ERROR"] = "Error occurred while processing the request. Details:- ";
+    Logs["INVALID_USER_ID"] = "invalid user Id";
+    Logs["VISITOR_REGISTER_ERROR"] = "Error occurred while registering a new visitor";
+    Logs["ERROR_GETTING_APP_ID"] = "Error getting app user";
+    Logs["SETTING_TOKEN_NOT_DEFINED"] = "Token not defined in app setting";
+    Logs["ERROR_SENDING_MESSAGE"] = "Error occurred while sending message. Description: ";
+    Logs["ERROR_REGISTERING_WEBHOOK"] = "Error occurred while registering webhook. Description: ";
+    Logs["ERROR_DELETING_WEBHOOK_INVALID_RESPONSE"] = "Error occurred while deleting webhook. Invalid API response";
+    Logs["ERROR_DELETING_WEBHOOK"] = "Error occurred while deleting webhook. Description: ";
+    Logs["SETTING_INVALID_DEPARTMENT_NAME"] = "Invalid department name entered in app setting";
+    Logs["ERROR_GETTING_FILE_INFO"] = "Error occurred while getting file info. Invalid API response";
+    Logs["ERROR_GETTING_FILE_URL"] = "Error occurred while getting file url. Invalid API response. Photo Url is undefined";
+    Logs["ERROR_DOWNLOADING_FILE"] = "Error occurred while downloading file. Invalid API response";
+    Logs["ERROR_EXTRACTING_FILE_NAME"] = "Error extracting file name from url - ";
+    Logs["ERROR_WHILE_UPLOADING_FILE"] = "Error occurred while uploading file to Rocket.Chat server";
+    Logs["ERROR_WHILE_SENDING_FILE"] = "Error occurred while sending file to Telegram";
+    Logs["ERROR_FILE_ID_INVALID"] = "Error while getting Upload. Invalid file Id";
+    Logs["INVALID_FILE_URL_OR_PAYLOAD"] = "Error while sending file. Invalid file url or payload";
+})(Logs = exports.Logs || (exports.Logs = {}));

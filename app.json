@@ -1,0 +1,90 @@
+{
+    "id": "fc96e832-5472-49e4-aace-1521a7ebeaa6",
+    "version": "1.0.2",
+    "requiredApiVersion": "^1.18.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Rocket.Chat",
+        "homepage": "https://rocket.chat/",
+        "support": "support@rocket.chat"
+    },
+    "name": "Telegram",
+    "nameSlug": "telegram",
+    "classFile": "TelegramApp.ts",
+    "description": "Telegram Messenger Omnichannel Integration",
+    "implements": [
+        "IPostMessageSent",
+        "IPostLivechatRoomClosed"
+    ],
+    "permissions": [
+        {
+            "name": "networking"
+        },
+        {
+            "name": "persistence"
+        },
+        {
+            "name": "slashcommand"
+        },
+        {
+            "name": "api"
+        },
+        {
+            "name": "livechat-department.read"
+        },
+        {
+            "name": "livechat-room.write"
+        },
+        {
+            "name": "livechat-room.read"
+        },
+        {
+            "name": "livechat-message.write"
+        },
+        {
+            "name": "livechat-message.read"
+        },
+        {
+            "name": "livechat-visitor.write"
+        },
+        {
+            "name": "livechat-visitor.read"
+        },
+        {
+            "name": "livechat-status.read"
+        },
+        {
+            "name": "livechat-custom-fields.write"
+        },
+        {
+            "name": "message.write"
+        },
+        {
+            "name": "message.read"
+        },
+        {
+            "name": "room.write"
+        },
+        {
+            "name": "ui.interact"
+        },
+        {
+            "name": "room.read"
+        },
+        {
+            "name": "server-setting.read"
+        },
+        {
+            "name": "upload.write"
+        },
+        {
+            "name": "upload.read"
+        },
+        {
+            "name": "user.read"
+        },
+        {
+            "name": "user.write"
+        }
+    ]
+}
